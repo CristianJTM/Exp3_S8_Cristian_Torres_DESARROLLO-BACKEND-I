@@ -1,4 +1,4 @@
-package com.duoc.LearningPlatformValidation.Model;
+package com.duoc.LearningPlatformValidation.model;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
