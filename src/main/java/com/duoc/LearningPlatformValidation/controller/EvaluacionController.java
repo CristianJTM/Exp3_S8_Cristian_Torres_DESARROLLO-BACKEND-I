@@ -2,7 +2,6 @@ package com.duoc.LearningPlatformValidation.controller;
 
 import com.duoc.LearningPlatformValidation.dto.EvaluacionDTO;
 import com.duoc.LearningPlatformValidation.model.Evaluacion;
-import com.duoc.LearningPlatformValidation.service.CursoService;
 import com.duoc.LearningPlatformValidation.service.EvaluacionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
