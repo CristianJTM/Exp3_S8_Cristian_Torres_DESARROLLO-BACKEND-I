@@ -1,8 +1,6 @@
 package com.duoc.LearningPlatformValidation.controller;
 
-import com.duoc.LearningPlatformValidation.dto.CursoDTO;
 import com.duoc.LearningPlatformValidation.dto.UsuarioDTO;
-import com.duoc.LearningPlatformValidation.model.Curso;
 import com.duoc.LearningPlatformValidation.model.Usuario;
 import com.duoc.LearningPlatformValidation.service.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
