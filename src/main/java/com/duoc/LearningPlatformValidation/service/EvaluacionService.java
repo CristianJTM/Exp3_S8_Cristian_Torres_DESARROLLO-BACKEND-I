@@ -36,6 +36,10 @@ public class EvaluacionService {
                 .orElseThrow(() -> new ResourceNotFoundException("Evaluacion no encontrada"));
     }
 
+    public List<Evaluacion> findByCurso(Long cursoId){
+        return evaluacionRepository.findByCursoId(cursoId);
+    }
+
     public Evaluacion saveEvaluacion(EvaluacionDTO evaluacionDTO){
         Curso curso = cursoRepository.findById(evaluacionDTO.getCursoId())
                 .orElseThrow(() -> new ResourceNotFoundException("Curso no encontrado"));

@@ -29,6 +29,12 @@ public class EvaluacionController {
         return ResponseEntity.ok(evaluacionService.findById(id));
     }
 
+    //GET •	Consultar evaluacion por curso
+    @GetMapping("/curso/{id}")
+    public ResponseEntity<List<Evaluacion>> findByCurso(@PathVariable Long id){
+        return ResponseEntity.ok(evaluacionService.findByCurso(id));
+    }
+
     //POST • Registrar evaluacion
     @PostMapping
     public ResponseEntity<Evaluacion> saveEvaluacion(@RequestBody EvaluacionDTO dto) {
