@@ -11,8 +11,8 @@
 	<groupId>com.duoc</groupId>
 	<artifactId>LearningPlatformValidation</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
+	<name>LearningPlatformValidation</name>
+	<description>Validación de Plataforma de Aprendizaje en Línea</description>
 	<url/>
 	<licenses>
 		<license/>
